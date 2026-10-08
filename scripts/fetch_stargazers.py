@@ -13,7 +13,7 @@ Only aggregated data (place -> count, country -> count) is written to disk
 by default. Usernames are never stored unless INCLUDE_LOGINS=true.
 
 Environment variables:
-  ORG               GitHub organisation (default: prism-oncology)
+  ORG               GitHub organisation or user (default: prism-oncology)
   INCLUDE_FORKS     include forked repos (default: false)
   INCLUDE_ARCHIVED  include archived repos (default: true)
   INCLUDE_LOGINS    attach usernames to each map point (default: false)
@@ -61,7 +61,7 @@ USER_AGENT = f"prism-star-maps/1.0 (https://github.com/{ORG}/prism-star-maps)"
 
 REPOS_QUERY = """
 query($org: String!, $endCursor: String) {
-  organization(login: $org) {
+  repositoryOwner(login: $org) {
     repositories(first: 100, after: $endCursor, privacy: PUBLIC,
                  orderBy: {field: STARGAZERS, direction: DESC}) {
       nodes {
@@ -105,7 +105,7 @@ def gh_graphql_paginate(query: str, jq: str, **variables: str) -> list[dict]:
 
 def list_repos() -> list[dict]:
     repos = gh_graphql_paginate(
-        REPOS_QUERY, ".data.organization.repositories.nodes[]", org=ORG
+        REPOS_QUERY, ".data.repositoryOwner.repositories.nodes[]", org=ORG
     )
     kept = []
     for r in repos:

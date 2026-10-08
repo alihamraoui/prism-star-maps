@@ -35,7 +35,7 @@ jobs:
           # GitHub only lets admins/collaborators list stargazers (since July 2026),
           # so the default GITHUB_TOKEN is not enough. See README > "Token".
           GH_TOKEN: ${{ secrets.STARGAZERS_TOKEN }}
-          ORG: prism-oncology
+          ORG: ${{ github.repository_owner }} # the account that owns this repo
           INCLUDE_FORKS: "false"
           INCLUDE_ARCHIVED: "true"
           INCLUDE_LOGINS: "false"
