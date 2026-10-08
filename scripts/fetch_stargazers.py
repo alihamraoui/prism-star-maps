@@ -63,6 +63,7 @@ REPOS_QUERY = """
 query($org: String!, $endCursor: String) {
   repositoryOwner(login: $org) {
     repositories(first: 100, after: $endCursor, privacy: PUBLIC,
+                 ownerAffiliations: [OWNER],
                  orderBy: {field: STARGAZERS, direction: DESC}) {
       nodes {
         name description url stargazerCount isFork isArchived
@@ -96,7 +97,7 @@ def gh_graphql_paginate(query: str, jq: str, **variables: str) -> list[dict]:
             return [json.loads(line) for line in proc.stdout.splitlines() if line.strip()]
         err = proc.stderr.strip()
         # Permission problems won't fix themselves; transient ones might.
-        if re.search(r"NOT_FOUND|FORBIDDEN|Resource not accessible|403", err):
+        if re.search(r"NOT_FOUND|FORBIDDEN|Could not resolve|Resource not accessible|403", err):
             raise PermissionError(err)
         print(f"  gh failed (attempt {attempt + 1}/3): {err[:300]}", file=sys.stderr)
         time.sleep(10 * (attempt + 1))
