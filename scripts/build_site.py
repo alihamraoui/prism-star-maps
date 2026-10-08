@@ -66,9 +66,10 @@ MAP_JS = """
   var places = %s;
   var map = L.map('map',{worldCopyJump:true,minZoom:1}).setView([25,10],2);
   var dark = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches;
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/' + (dark?'dark_all':'light_all') + '/{z}/{x}/{y}{r}.png',{
-    subdomains:'abcd',maxZoom:18,
-    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  // Esri gray canvas: no API key needed (CARTO basemaps now require one).
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_' + (dark?'Dark':'Light') + '_Gray_Base/MapServer/tile/{z}/{y}/{x}',{
+    maxZoom:16,
+    attribution:'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
   }).addTo(map);
   var accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
   var bounds = [];

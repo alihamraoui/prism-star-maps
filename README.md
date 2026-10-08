@@ -98,4 +98,4 @@ python -m http.server -d site 8000   # open http://localhost:8000
 - Nominatim's [usage policy](https://operations.osmfoundation.org/policies/nominatim/)
   asks for ≤1 request/s and an identifying User-Agent; both are respected, and
   the cache means a daily run usually makes only a handful of new lookups.
-- Map tiles: © OpenStreetMap contributors, © CARTO.
+- Map tiles: Esri World Gray Canvas (no API key needed), © OpenStreetMap contributors.
