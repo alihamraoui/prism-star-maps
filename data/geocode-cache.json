@@ -1,1 +1,23 @@
-{}
+{
+ "casablanca": {
+  "lat": 33.595,
+  "lon": -7.62,
+  "label": "Casablanca, Morocco",
+  "country": "Morocco",
+  "country_code": "MA"
+ },
+ "paris, france": {
+  "lat": 48.859,
+  "lon": 2.32,
+  "label": "Paris, France",
+  "country": "France",
+  "country_code": "FR"
+ },
+ "toronto, on, canada": {
+  "lat": 43.653,
+  "lon": -79.384,
+  "label": "Toronto, Canada",
+  "country": "Canada",
+  "country_code": "CA"
+ }
+}

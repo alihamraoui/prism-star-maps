@@ -1,0 +1,46 @@
+{
+ "repo": "_all",
+ "url": "https://github.com/alihamraoui",
+ "description": "Unique stargazers across all alihamraoui repositories",
+ "generated_at": "2026-10-08T16:21:07+00:00",
+ "stargazers": 6,
+ "with_location": 4,
+ "located": 4,
+ "places": [
+  {
+   "lat": 48.859,
+   "lon": 2.32,
+   "label": "Paris, France",
+   "count": 2
+  },
+  {
+   "lat": 33.595,
+   "lon": -7.62,
+   "label": "Casablanca, Morocco",
+   "count": 1
+  },
+  {
+   "lat": 43.653,
+   "lon": -79.384,
+   "label": "Toronto, Canada",
+   "count": 1
+  }
+ ],
+ "countries": [
+  {
+   "code": "FR",
+   "name": "France",
+   "count": 2
+  },
+  {
+   "code": "MA",
+   "name": "Morocco",
+   "count": 1
+  },
+  {
+   "code": "CA",
+   "name": "Canada",
+   "count": 1
+  }
+ ]
+}

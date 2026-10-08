@@ -1,0 +1,168 @@
+{
+ "org": "alihamraoui",
+ "generated_at": "2026-10-08T16:21:07+00:00",
+ "repos": [
+  {
+   "repo": "scIso",
+   "url": "https://github.com/alihamraoui/scIso",
+   "description": "Quantify and visualize isoform-level expression heterogeneity from long-read single-cell RNA-seq data.",
+   "language": "R",
+   "archived": false,
+   "star_count": 4,
+   "stargazers": 4,
+   "located": 3,
+   "error": null,
+   "countries": 3
+  },
+  {
+   "repo": "scKenver",
+   "url": "https://github.com/alihamraoui/scKenver",
+   "description": "comprehensive reproducible benchmarking framework for single-cell and spatial long-read transcriptomics",
+   "language": "R",
+   "archived": false,
+   "star_count": 3,
+   "stargazers": 3,
+   "located": 2,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "Long-read-sinCellTe",
+   "url": "https://github.com/alihamraoui/Long-read-sinCellTe",
+   "description": "TP single cell Long-read",
+   "language": "HTML",
+   "archived": false,
+   "star_count": 1,
+   "stargazers": 1,
+   "located": 1,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "AsaruSim_Application_Note",
+   "url": "https://github.com/alihamraoui/AsaruSim_Application_Note",
+   "description": "Analysis scripts for AsaruSim paper",
+   "language": "HTML",
+   "archived": false,
+   "star_count": 1,
+   "stargazers": 1,
+   "located": 1,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "splinart-ali",
+   "url": "https://github.com/alihamraoui/splinart-ali",
+   "description": "splinart",
+   "language": "Jupyter Notebook",
+   "archived": false,
+   "star_count": 1,
+   "stargazers": 1,
+   "located": 1,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "applied-data-science-capstone",
+   "url": "https://github.com/alihamraoui/applied-data-science-capstone",
+   "description": "Predict if the first stage of the Space X Falcon 9 will land successfully",
+   "language": "Jupyter Notebook",
+   "archived": false,
+   "star_count": 1,
+   "stargazers": 1,
+   "located": 1,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "NF1-long-read",
+   "url": "https://github.com/alihamraoui/NF1-long-read",
+   "description": "NF1 Single-cell RNA isoform analysis",
+   "language": "R",
+   "archived": false,
+   "star_count": 1,
+   "stargazers": 1,
+   "located": 1,
+   "error": null,
+   "countries": 1
+  },
+  {
+   "repo": "prism-star-maps",
+   "url": "https://github.com/alihamraoui/prism-star-maps",
+   "description": "PRISM star maps org",
+   "language": "Python",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  },
+  {
+   "repo": "docs",
+   "url": "https://github.com/alihamraoui/docs",
+   "description": "https://alihamraoui.github.io/docs/",
+   "language": "JavaScript",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  },
+  {
+   "repo": "drom",
+   "url": "https://github.com/alihamraoui/drom",
+   "description": "Drome.fr",
+   "language": "HTML",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  },
+  {
+   "repo": "Redefining_Cancer",
+   "url": "https://github.com/alihamraoui/Redefining_Cancer",
+   "description": null,
+   "language": "Jupyter Notebook",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  },
+  {
+   "repo": "geneprediction-tp",
+   "url": "https://github.com/alihamraoui/geneprediction-tp",
+   "description": null,
+   "language": "Python",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  },
+  {
+   "repo": "PyPIC",
+   "url": "https://github.com/alihamraoui/PyPIC",
+   "description": null,
+   "language": "Python",
+   "archived": false,
+   "star_count": 0,
+   "stargazers": 0,
+   "located": 0,
+   "error": null,
+   "countries": 0
+  }
+ ],
+ "overall": {
+  "stargazers": 6,
+  "with_location": 4,
+  "located": 4,
+  "countries": 3
+ }
+}
